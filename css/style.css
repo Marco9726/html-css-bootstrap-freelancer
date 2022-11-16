@@ -37,3 +37,13 @@ section ul li:last-child{
     margin-top: 5rem;
 }
 
+/* FOOTER  */
+footer section:first-child{
+    background-color: rgb(59,83,109);
+}
+
+footer section:last-child{
+    background-color: rgb(44,62,79);
+}
+
+
