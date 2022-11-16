@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+ul{
+    list-style-type: none;
+}
+
 .row *{
     outline: 1px solid red;
 }
@@ -26,4 +30,10 @@ header{
     align-items: center;
 }
 
+
+/* * TERZA SECTION *  */
+
+section ul li:last-child{
+    margin-top: 5rem;
+}
 
