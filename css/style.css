@@ -27,11 +27,15 @@ section{
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
 }
 
 .fa-star{
@@ -79,12 +83,6 @@ header ul{
     border-radius: 1rem;
 }
 
-/* * TERZA SECTION *  */
-
-section ul li:last-child{
-    margin-top: 6rem;
-}
-
 /* QUARTA SECTION  */
 
 #form li:not(:first-child){
@@ -100,14 +98,35 @@ section ul li:last-child{
     margin-top: .5rem;
 }
 
+#contact ul li:last-child{
+    margin-top: 6rem;
+}
+
 
 /* FOOTER  */
 footer section:first-child{
     background-color: rgb(59,83,109);
 }
 
+footer i{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: .75rem;
+    margin-top: .25rem;
+}
+
+footer i:not(:first-child){
+    margin-left: .5rem;
+}
+
 footer section:last-child{
     background-color: rgb(44,62,79);
+}
+
+footer a{
+    color:rgb(25,188,156);
 }
 
 
