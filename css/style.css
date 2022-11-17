@@ -51,6 +51,10 @@ img{
     border-radius: .75rem;
 }
 
+.btn{
+    border: 1px solid white;
+}
+
 /* *HEADER*  */
 
 header{
