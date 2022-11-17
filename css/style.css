@@ -10,10 +10,6 @@ ul{
     list-style-type: none;
 }
 
-.row *{
-    border: 1px solid red;
-}
-
 .text-bold{
     font-weight: 600;
 }
@@ -28,6 +24,18 @@ section:nth-of-type(2n+1){
 
 section{
     padding: 3rem;
+}
+
+h1{
+    font-size: 2.75rem;
+}
+
+.fa-star{
+    font-size: 2rem;
+}
+
+.font-125{
+    font-size: 1.25rem;
 }
 /* *HEADER*  */
 
@@ -45,6 +53,13 @@ header{
 
 header ul{
     margin-bottom: 0;
+}
+
+/* PRIMA SECTION  */
+.star-container div.line{
+    height: 5px;
+    border-radius: 1rem;
+    background-color: white;
 }
 
 
