@@ -67,6 +67,9 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 header *{
@@ -79,6 +82,11 @@ header .right .middle{
 
 
 /* PRIMA SECTION  */
+
+#jumbo{
+    padding-top: 80px;
+}
+
 .star-container div.line{
     height: 5px;
     border-radius: 1rem;
