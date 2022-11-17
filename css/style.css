@@ -82,8 +82,24 @@ header ul{
 /* * TERZA SECTION *  */
 
 section ul li:last-child{
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
+
+/* QUARTA SECTION  */
+
+#form li:not(:first-child){
+    border-top: 1px solid lightgrey;
+}
+
+#form li{
+    line-height: 2.5rem;
+}
+
+#contact button{
+    background-color:rgb(25,188,156);
+    margin-top: .5rem;
+}
+
 
 /* FOOTER  */
 footer section:first-child{
