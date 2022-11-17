@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 ul{
@@ -10,7 +11,15 @@ ul{
 }
 
 .row *{
-    outline: 1px solid red;
+    border: 1px solid red;
+}
+
+.text-bold{
+    font-weight: 600;
+}
+
+.text-white{
+    color: white
 }
 
 section:nth-of-type(2n+1){
@@ -28,6 +37,14 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
+}
+
+#hamburger{
+    font-size: 1.75rem;
+}
+
+header ul{
+    margin-bottom: 0;
 }
 
 
